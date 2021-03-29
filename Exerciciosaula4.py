@@ -7,54 +7,6 @@ Name: Gustavo. M. Khairalla
 RM: 87101
 '''
 
-'''a = int(input('Primero valor: '))
-b = int(input('Segundo valor: '))
-c = int(input('Terceiro valor: '))
-maior = a, b, c
-
-if a > b or a > c:
-    maior = 0
-    maior = a
-    if b > a or b > c:
-        maior = 0
-        maior = b
-    elif c > a or c > b:
-        maior = 0
-        maior = c
-
-print(maior)'''
-
-'''a = int(input('Primero valor: '))
-b = int(input('Segundo valor: '))
-c = int(input('Terceiro valor: '))
-maior = menor = 0
-
-if a == b or b == c or c == a:
-    print('\033[31mTodos os valores são iguais!!\033[m')
-
-if a > maior:
-    maior = a
-    if b > a and b > c:
-        maior = b
-    elif c > b and c > a:
-        maior = c
-
-if a > menor:
-    menor = a
-    if b < a and b < c:
-        menor = b
-    elif c < b and c < a:
-        menor = c
-
-if a != maior and a != menor:
-    valor = a
-elif b != maior and b != menor:
-    valor = b
-else:
-    valor = c
-
-print(f'{menor}, {valor}, {maior}')'''
-
 a = int(input('Primero valor: '))
 b = int(input('Segundo valor: '))
 c = int(input('Terceiro valor: '))
