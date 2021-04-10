@@ -12,7 +12,7 @@ b = int(input('Segundo valor: '))
 c = int(input('Terceiro valor: '))
 maior = menor = 0
 
-if a == b or b == c or c == a:
+if b == b or b == c or c == a:
     print('\033[31mTemos valores que são iguais!!\033[m')
     if a != b or b != c or c != a:
         print('\033[31mVocê colocou 2 valores IGUAIS e 1 DIRERENTE.\033[m')
